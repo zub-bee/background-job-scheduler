@@ -12,7 +12,7 @@ Jobs can get created, queued, processed, and tracked. Workers run independently 
 
 ## Demo Video
 
-![demo video](media/background-sheduler-demo.mp4)
+https://github.com/user-attachments/assets/738246c3-1e5d-46fb-ba35-c35db9c802a0
 
 ## Setup
 
