@@ -8,8 +8,6 @@ A background job scheduler with priority queuing, retries, dead-letter queue, an
 
 Jobs can get created, queued, processed, and tracked. Workers run independently in the background to handle failure on its own in any of the scheduled jobs. A scheduler that only works in the happy path is broken and tries a maximum of 3 times. If it remains failed after 3 tries, it is added to the dead letter queue that can be reviewed and retried again.
 
-## ![web screenshot](media/image.png)
-
 ## Demo Video
 
 https://github.com/user-attachments/assets/738246c3-1e5d-46fb-ba35-c35db9c802a0
