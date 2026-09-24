@@ -8,7 +8,11 @@ A background job scheduler with priority queuing, retries, dead-letter queue, an
 
 Jobs can get created, queued, processed, and tracked. Workers run independently in the background to handle failure on its own in any of the scheduled jobs. A scheduler that only works in the happy path is broken and tries a maximum of 3 times. If it remains failed after 3 tries, it is added to the dead letter queue that can be reviewed and retried again.
 
-## ![alt text](image.png)
+## ![web screenshot](media/image.png)
+
+## Demo Video
+
+![demo video](media/background-sheduler-demo.mp4)
 
 ## Setup
 
@@ -83,7 +87,7 @@ curl -X POST http://localhost:3000/dlq/1/retry
 
 ## Architecture Diagram
 
-![alt text](image-1.png)
+![alt text](media/image-1.png)
 
 ## Data Flow
 
